@@ -15,6 +15,9 @@
     font-weight: 800;
     color: #fff;
     display: inline-block;
+    position: relative;
+    bottom: 7px;
+    left: 10px;
     letter-spacing: 5px;
 }
 

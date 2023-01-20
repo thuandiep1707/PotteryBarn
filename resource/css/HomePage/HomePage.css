@@ -1,11 +1,10 @@
-
 /*---------------------------------------------------------*/
 /*-------------------------HEADER--------------------------*/
 /*---------------------------------------------------------*/
 
 
 .home {
-    background-image: url('../../image/Background1.jpg');
+    background-image: url('../../image/Bghomepage.jpg');
     background-attachment: fixed;
     background-position: relative;
     background-size: cover;
@@ -18,12 +17,6 @@
     height: 140px;
 }
 
-.header__logo .logo {
-    position: relative;
-    bottom: 7px;
-    left: 10px;
-}
-
 
 /*---------------------------------------------------------*/
 /*------------------------SECTI0N--------------------------*/
@@ -34,19 +27,11 @@
     box-shadow: 0 -200px 20px 10px rgba(0, 0, 0, 0.15);
 }
 
-.page-link {
-    border-bottom: 1px solid rgb(196, 196, 196);
-}
 
-.page-link ul li {
-    display: inline-block;
-    padding: 20px;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-}
-#home a{
+#home a {
     color: rgb(135, 135, 135);
 }
+
 .container h2 {
     margin: 100px 0 30px 0;
     font-size: 15px;
@@ -123,7 +108,7 @@
     color: rgb(58, 58, 58)
 }
 
-.left-content .intro h1 a:hover{
+.left-content .intro h1 a:hover {
     text-decoration: underline;
 }
 
@@ -159,51 +144,61 @@
     font-weight: 100;
     color: rgb(58, 58, 58);
 }
-.left-content .feedback h1 a:hover{
+
+.left-content .feedback h1 a:hover {
     text-decoration: underline;
 }
-.feedback-header-content{
+
+.feedback-header-content {
     padding: 40px 0;
     font-size: 110%;
     color: rgb(58, 58, 58);
 }
-.content-box{
+
+.content-box {
     /* border: 1px solid red; */
     display: flex;
 }
-.img{
+
+.img {
     /* border: 1px solid red; */
     width: 50%;
 }
-.content-box .content{
+
+.content-box .content {
     /* border: 1px solid red; */
     width: 50%;
     padding: 10px;
-    
+
 }
-.feedback .feedback__content--header{
+
+.feedback .feedback__content--header {
     /* border: 1px solid red; */
     margin-top: 20px;
     font-size: 20px;
     font-weight: 700;
     text-align: center;
 }
-.feedback__content .content p{
+
+.feedback__content .content p {
     color: rgb(58, 58, 58);
 }
-.slogan{
+
+.slogan {
     margin-bottom: 100px;
 }
-.slogan p{
+
+.slogan p {
     display: block;
     background-color: rgb(150, 192, 192);
     padding: 30px 40px;
     text-align: center;
     color: #fff;
     font-size: 120%;
-    font-weight:900;
+    font-weight: 900;
 }
-.slogan::before{
+
+.slogan::before {
     content: '';
     display: block;
     background-color: rgb(175, 178, 197);
@@ -217,12 +212,12 @@
 /*------------------------FOOTER-------------------------*/
 /*---------------------------------------------------------*/
 
-.end{
+.end {
     border-top: 1px solid rgb(175, 178, 197);
     padding: 35px 0;
 }
-.end p{
+
+.end p {
     color: rgb(90, 90, 90);
     font-size: 90%;
 }
-

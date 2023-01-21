@@ -35,49 +35,31 @@
         <nav class="product">
             <h3>PRODUCT CATEGORIES</h3>
             <ul>
-                <li><a href="#">Atlantis Pots</a></li>
-                <li><a href="#">Bamboo</a></li>
-                <li><a href="#">Black & sand blasted Clays</a></li>
-                <li><a href="#">Decoration</a></li>
-                <li><a href="#">Fountains</a></li>
-                <li><a href="#">Indoor Glazer</a></li>
-                <li><a href="#">Lacquers</a></li>
-                <li><a href="#">Outdoor Glazer</a></li>
-                <li><a href="#">Painting Pots</a></li>
-                <li><a href="#">Pot feets</a></li>
-                <li><a href="#">Terracotta & Antique Terracotta Clays</a></li>
-                <li><a href="#">Terrazzo & Cement Pots</a></li>
+                <li>Atlantis Pots</li>
+                <li>Bamboo</li>
+                <li>Black & sand blasted Clays</li>
+                <li>Decoration</li>
+                <li>Fountains</li>
+                <li>Indoor Glazer</li>
+                <li>Lacquers</li>
+                <li>Outdoor Glazer</li>
+                <li>Painting Pots</li>
+                <li>Pot feets</li>
+                <li>Terracotta Clays</li>
+                <li>Terrazzo & Cement Pots</li>
             </ul>
         </nav>
         <section class="content">
             <div class="link">
                 <a href="../index.html">Trang Chủ</a> / Products
             </div>
-            <h2>PRODUCTS</h2>
+            <h2><a href="./CategoryProducts.html">PRODUCTS</a></h2>
             <div class="content-item" id="item"></div>
         </section>
     </section> 
     <footer class="end">
         <p class="row">Proudly powered by Long-term</p>
     </footer>
-    <script>
-        const json = '[{"img":"Outdoor Glazes.png","name":"Outdoor Glazes"},{"img":"Atlantis Pots.png","name":"Atlantis Pots"},{"img":"Bamboo.jpg","name":"Bamboo"},{"img":"Black & sand blasted Clays.png","name":"Black & sand blasted Clays"},{"img":"Decoration.png","name":"Decoration"},{"img":"Fountains.jpg","name":"Fountains"},{"img":"Indoor Glazes.png","name":"Indoor Glazes"},{"img":"Lacquers.jpg","name":"Lacquers"},{"img":"Painting Pots.png","name":"Painting Pots"},{"img":"Pot feets.png","name":"Pot feets"},{"img":"Terracotta Clays.png","name":"Terracotta Clays"},{"img":"Terrazzo & Cement Pots.png","name":"Terrazzo & Cement Pots"}]';
-        const item = JSON.parse(json);
-        console.log(item);
-        console.log(item[2]);
-        for (var num = 0; item[num] != undefined; num++ ){
-            let img = item[num].img;
-            let name = item[num].name;
-            document.getElementById("item").innerHTML += '<div class="item" Onclick ="callListItem('+num+')"><img src="../resource/image/product/'+img+'" alt="'+name+'"><p>'+name+'</p></div>'
-        }
-        
-        // for (var i = 0; i < item.lenght();i++;){
-        //     console.log(item[i]);
-        //     // document.getElementById("item").innerHTML += '<div class="item">
-        //     //         <img src="../resource/image/product/Outdoor Glazes.png" alt="Outdoor Glazes">
-        //     //         <p>Outdoor Glazes</p>
-        //     //     </div>';
-        // }
-    </script>
+    <script src="../resource/js/productsItem.js"></script>
 </body>
 </html>

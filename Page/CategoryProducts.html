@@ -54,22 +54,25 @@
                 <a href="../index.html">Trang Chủ</a> / Products
             </div>
             <h2>PRODUCTS</h2>
-            <div class="content-item" id="item">
-                <div class="item">
-                    <img src="../resource/image/product/Outdoor Glazes.png" alt="Outdoor Glazes">
-                    <p>Outdoor Glazes</p>
-                </div>
-            </div>
+            <div class="content-item" id="item"></div>
         </section>
     </section> 
     <footer class="end">
         <p class="row">Proudly powered by Long-term</p>
     </footer>
     <script>
-        const json = '[{"img":"Outdoor Glazes.png","name":"Outdoor Glazes"},{"img":"Atlantis Pots.png","name":"Atlantis Pots"}]';
+        const json = '[{"img":"Outdoor Glazes.png","name":"Outdoor Glazes"},{"img":"Atlantis Pots.png","name":"Atlantis Pots"},{"img":"Bamboo.jpg","name":"Bamboo"},{"img":"Black & sand blasted Clays.png","name":"Black & sand blasted Clays"},{"img":"Decoration.png","name":"Decoration"},{"img":Fountains.jpg","name":"Fountains"}]';
         const item = JSON.parse(json);
-        const lenght = item.lenght();
         console.log(item);
+        console.log(item[2]);
+        for (var num = 0; item[num] != undefined; num++ ){
+            let img = item[num].img;
+            let name = item[num].name;
+            console.log(num);
+            console.log(img);
+            console.log(name);
+            document.getElementById("item").innerHTML += '<div class="item" Onclick ="callListItem('+num+')"><img src="../resource/image/product/'+img+'" alt="'+name+'"><p>'+name+'</p></div>'
+        }
         
         // for (var i = 0; i < item.lenght();i++;){
         //     console.log(item[i]);

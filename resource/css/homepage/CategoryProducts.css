@@ -25,10 +25,11 @@
 }
 .content-item .item{
     display: inline-block;
-    width: 24%;
+    width: 32.5%;
     background-color: rgb(175, 178, 197);
     border-radius: 5px;
     text-align: center;
+    margin: 0.3%;
 }
 .content-item .item img{
     width: 98%;
@@ -38,6 +39,7 @@
 .content-item .item p{
     display: block;
     margin: 5px auto;
+    height: 40px;
 }
 .content-item .item:hover,
 .content-item .item:active{

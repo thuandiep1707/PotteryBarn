@@ -6,7 +6,13 @@
 #products a{
     color: rgb(135, 135, 135);
 }
-
+#link:hover h2,
+#link:active h2,
+li:hover,
+li:active{
+    text-decoration: underline;
+    cursor: pointer;
+}
 /*---------------------------------------------------------*/
 /*-------------------------CONTENT-------------------------*/
 /*---------------------------------------------------------*/
@@ -21,7 +27,7 @@
     padding-bottom: 20px;
     border-bottom: 1px solid rgb(171, 171, 171);
 }
-.content h2{
+#link{
     margin: 20px 0;
     font-size: 95%;
 }
@@ -48,6 +54,7 @@
     transition: 0.5s;
     position: relative;
     transform: scale(1.1);
+    cursor: pointer;
 }
 /*---------------------------------------------------------*/
 /*------------------------PRODUCTS-------------------------*/

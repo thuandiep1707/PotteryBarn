@@ -34,7 +34,7 @@ a {
     font-weight: bold;
 }
 .page-link ul li a:hover,
-.page-link ul li:active{
+.page-link ul li a:active{
     color: rgb(135, 135, 135);
 }
 

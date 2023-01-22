@@ -1,6 +1,6 @@
 function callback() {
   document.getElementById("link").innerHTML =
-    '<h2 onclick="callback()">PRODUCTS</h2>'
+    '<h2 onclick="callback()">PRODUCTS</h2>';
   document.getElementById("item").innerHTML = "";
   fetch("../resource/js/itemGroup.json")
     .then((res) => res.json())
@@ -29,7 +29,11 @@ callback();
 
 function callListItem(name) {
   document.getElementById("link").innerHTML =
-    '<h2 onclick="callback()">PRODUCTS</h2> <h4 onclick="callListItem(\''+name+'\')">'+ name+'</h4>';
+    '<h2 onclick="callback()">PRODUCTS</h2> <h4 onclick="callListItem(\'' +
+    name +
+    "')\">" +
+    name +
+    "</h4>";
   document.getElementById("item").innerHTML = "";
   fetch("../resource/js/" + name + ".json")
     .then((res) => res.json())
@@ -39,7 +43,10 @@ function callListItem(name) {
         let Nname = data[num].name;
         document.getElementById("item").innerHTML +=
           '<div class="item" Onclick ="callItem(' +
-          num + ",'"+name+"'"+
+          num +
+          ",'" +
+          name +
+          "'" +
           ')"><img src="../resource/image/product/glazed/' +
           img +
           '" alt="' +
@@ -50,13 +57,27 @@ function callListItem(name) {
       }
     });
 }
-function callItem(num,name){
+function callItem(num, name) {
   document.getElementById("item").innerHTML = "";
-  fetch("../resource/js/"+name+".json")
-  .then((res) => res.json())
-  .then((data) => {
-    let item =data;
-    alert("Thành công");
-    document.getElementById('item').innerHTML += "abcsaskdhkasjd";
-  });
+  fetch("../resource/js/" + name + ".json")
+    .then((res) => res.json())
+    .then((data) => {
+      let item = data;
+      document.getElementById("item").innerHTML +=
+        '<div class="product-item"><div class="item__img"><img src="../resource/image/product/glazed/' +
+        item[num].name +
+        '.jpg" alt="' +
+        name +
+        '"></div><div class="item__infor"><div class="name">' +
+        item[num].name +
+        "</div><h3>Product info</h3><h3>Size A: " +
+        item[num].size +
+        "</h3><h3>Packing: " +
+        item[num].packing +
+        "</h3><h3>Color: " +
+        item[num].color +
+        '</h3></div></div><div class="descript"><div class="name">Mô Tả:</div><p>' +
+        item[num].descript +
+        "</p></div>";
+    });
 }

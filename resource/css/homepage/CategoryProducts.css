@@ -6,8 +6,10 @@
 #products a{
     color: rgb(135, 135, 135);
 }
-#link:hover h2,
-#link:active h2,
+#link h2:hover,
+#link h2:hover,
+#link h4:hover,
+#link h4:active,
 li:hover,
 li:active{
     text-decoration: underline;

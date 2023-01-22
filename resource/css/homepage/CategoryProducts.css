@@ -126,3 +126,24 @@ a:hover {
     letter-spacing: 1px;
     line-height: 1.5;
 }
+.list-line{
+    /* border:  1px solid red; */
+    width: 70%;
+    margin: 0 auto;
+} 
+.line-item{
+    display: inline-block;
+    width: 24%;
+    background-color: rgb(175, 178, 197);
+    border-radius: 5px;
+    text-align: center;
+    margin: 0.3%;
+}
+.line-item img{
+    border-radius: 5px;
+    transform: scale(0.95);
+}
+.line-item span{
+    display: block;
+    margin: 10px auto 15px;
+}

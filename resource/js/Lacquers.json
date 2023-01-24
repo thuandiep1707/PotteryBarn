@@ -1,0 +1,74 @@
+[
+    {
+        "img":"KS7000.jpg",
+        "name":"KS7000",
+        "size":"50x14x40cm",
+        "packing":"1piece/innerbox 3pieces/masster box",
+        "color":"Update",
+        "descript":"This is new our product. It is made by bamboo and it is suitable to plan flowers. Contact us to get more information."
+    },
+    {
+        "img":"KS7001.jpg",
+        "name":"KS7001",
+        "size":"23x23x37cm",
+        "packing":"-1piece/innerbox -4pieces/masster box",
+        "color":"Update",
+        "descript":"This is new our product. It is made by cardboard and it is suitable to plan flowers. Contact us to get more information."
+    },
+    {
+        "img":"KS7002.jpg",
+        "name":"KS7002",
+        "size":"22x22x31cm",
+        "packing":"-1piece/innerbox -4pieces/masster box",
+        "color":"Update",
+        "descript":"This is new our product. It is made by cardboard and it is suitable to plan flowers. Contact us to get more information."
+    },
+    {
+        "img":"KS7003.jpg",
+        "name":"KS7003",
+        "size":"24x24x47cm",
+        "packing":"-1piece/innerbox",
+        "color":"Update",
+        "descript":"This is new our product. It is made by cardboard and it is suitable to plan flowers. Contact us to get more information."
+    },
+    {
+        "img":"KS7004.jpg",
+        "name":"KS7004",
+        "size":"28x15x42cm",
+        "packing":"-1piece/innerbox -3pieces/masster box",
+        "color":"Update",
+        "descript":"This is new our product. It is made by cardboard and it is suitable to plan flowers. Contact us to get more information."
+    },
+    {
+        "img":"KS7005.jpg",
+        "name":"KS7005",
+        "size":"18x18x46cm",
+        "packing":"-1piece/innerbox -4pieces/masster box",
+        "color":"Update",
+        "descript":"This is new our product. It is made by cardboard and it is suitable to plan flowers. Contact us to get more information."
+    },
+    {
+        "img":"KS7006.jpg",
+        "name":"KS7006",
+        "size":"38x17x44cm",
+        "packing":"-1piece/innerbox -3pieces/masster box",
+        "color":"Update",
+        "descript":"This is new our product. It is made by cardboard and it is suitable to plan flowers. Contact us to get more information."
+    },
+    {
+        "img":"KS7007.jpg",
+        "name":"KS7007",
+        "size":"31x16x35cm",
+        "packing":"-1piece/innerbox -3pieces/masster box",
+        "color":"Update",
+        "descript":"This is new our product. It is made by cardboard and it is suitable to plan flowers. Contact us to get more information."
+    },
+    {
+        "img":"KS7008.jpg",
+        "name":"KS7008",
+        "size":"31x16x35cm",
+        "packing":"-1piece/innerbox -3pieces/masster box",
+        "color":"Update",
+        "descript":"This is new our product. It is made by cardboard and it is suitable to plan flowers. Contact us to get more information."
+    }
+]

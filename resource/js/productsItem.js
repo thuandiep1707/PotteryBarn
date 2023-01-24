@@ -25,7 +25,7 @@ function callback() {
     });
 }
 
-callback();
+callListItem('Painting Pots');
 
 function callListItem(name) {
   document.getElementById("link").innerHTML =

@@ -25,7 +25,7 @@ function callback() {
     });
 }
 
-callListItem('Pot feets');
+callListItem('Terracotta Clays');
 
 function callListItem(name) {
   document.getElementById("link").innerHTML =

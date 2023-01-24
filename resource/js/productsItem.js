@@ -25,7 +25,7 @@ function callback() {
     });
 }
 
-callListItem('Lacquers');
+callListItem('Pot feets');
 
 function callListItem(name) {
   document.getElementById("link").innerHTML =

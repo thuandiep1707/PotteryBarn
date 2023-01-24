@@ -47,7 +47,7 @@ function callListItem(name) {
           ",'" +
           name +
           "'" +
-          ')"><img src="../resource/image/product/glazed/' +
+          ')"><img src="../resource/image/product/'+name+'/' +
           img +
           '" alt="' +
           Nname +
@@ -64,7 +64,7 @@ function callItem(num, name) {
     .then((data) => {
       let item = data;
       document.getElementById("item").innerHTML +=
-        '<div class="product-item"><div class="item__img"><img src="../resource/image/product/glazed/' +
+        '<div class="product-item"><div class="item__img"><img src="../resource/image/product/'+name+'/' +
         item[num].name +
         '.jpg" alt="' +
         name +

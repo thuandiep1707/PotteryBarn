@@ -1,0 +1,66 @@
+[
+    {
+        "img":"KSPT01.jpg",
+        "name":"KSPT01",
+        "size":"56x43cm, 43x37cm, 32x29cm",
+        "packing":"16 sets/pallet",
+        "color":"Update...",
+        "descript":"None"
+    },
+    {
+        "img":"KSPT02.jpg",
+        "name":"KSPT02",
+        "size":"54x55cm, 43x41cm, 33x30cm",
+        "packing":"12 sets/pallet",
+        "color":"Update...",
+        "descript":"None"
+    },
+    {
+        "img":"KSPT03.jpg",
+        "name":"KSPT03",
+        "size":"56x37cm",
+        "packing":"20 sets/pallet",
+        "color":"Update...",
+        "descript":"None"
+    },
+    {
+        "img":"KSPT04.jpg",
+        "name":"KSPT04",
+        "size":"44x38cm, 36x32cm, 29x27cm",
+        "packing":"20 sets/pallet",
+        "color":"Update...",
+        "descript":"None"
+    },
+    {
+        "img":"KSPT05.jpg",
+        "name":"KSPT05",
+        "size":"48x40cm, 39x30cm, 30x24cm, 20x17cm",
+        "packing":"25 sets/pallet",
+        "color":"Update...",
+        "descript":"None"
+    },
+    {
+        "img":"KSPT106.jpg",
+        "name":"KSPT106",
+        "size":"50x28cm, 39x21cm, 30x15cm",
+        "packing":"28 sets/pallet",
+        "color":"Update...",
+        "descript":"None"
+    },
+    {
+        "img":"KSPT07.jpg",
+        "name":"KSPT07",
+        "size":"53x23cm, 40x17cm, 25x11cm",
+        "packing":"36 sets/pallet",
+        "color":"Update...",
+        "descript":"None"
+    },
+    {
+        "img":"KSPT08.jpg",
+        "name":"KSPT08",
+        "size":"40x60cm",
+        "packing":"18 sets/pallet",
+        "color":"Update...",
+        "descript":"None"
+    }
+]

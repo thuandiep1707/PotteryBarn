@@ -25,7 +25,7 @@ function callback() {
     });
 }
 
-callListItem('Painting Pots');
+callListItem('Lacquers');
 
 function callListItem(name) {
   document.getElementById("link").innerHTML =

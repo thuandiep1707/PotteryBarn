@@ -70,7 +70,7 @@ function callItem(num, name) {
         name +
         '"></div><div class="item__infor"><div class="name">' +
         item[num].name +
-        "</div><h3>Product info</h3><h3>Size A: " +
+        "</div><h3>Product info</h3><h3>Size: " +
         item[num].size +
         "</h3><h3>Packing: " +
         item[num].packing +

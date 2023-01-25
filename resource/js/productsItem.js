@@ -25,7 +25,7 @@ function callback() {
     });
 }
 
-callListItem('Terracotta Clays');
+callListItem('Terrazzo & Cement Pots');
 
 function callListItem(name) {
   document.getElementById("link").innerHTML =
@@ -70,7 +70,7 @@ function callItem(num, name) {
         name +
         '"></div><div class="item__infor"><div class="name">' +
         item[num].name +
-        "</div><h3>Product info</h3><h3>Size: " +
+        "</div><h3>Product info</h3><h3>" +
         item[num].size +
         "</h3><h3>Packing: " +
         item[num].packing +

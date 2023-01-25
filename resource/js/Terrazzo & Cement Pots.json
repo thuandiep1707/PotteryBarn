@@ -44,54 +44,54 @@
         "name":"KS4005",
         "size":"SizeA: 36x36x64cm<br>SizeB: 29x29x54cm<br>SizeC: 22x22x44cm",
         "packing":"27 sets/ pallet",
-        "color":" Light-Grey<br>Light-White",
+        "color":" Light Grey<br>Light White",
         "descript":"Decorative products are handmade 100% from set soil. Kneaded, meticulously, cared for each stage in the hands of skilled craftsmen."
     },
     {
-        "img":".jpg",
-        "name":"",
-        "size":"",
-        "packing":" sets/ pallet",
+        "img":"KS4006.jpg",
+        "name":"KS4006",
+        "size":"SizeA: 80x35x35cm<br>SizeB: 68x21x21cm",
+        "packing":"20 sets/ pallet",
+        "color":"Light White<br>Light Grey",
+        "descript":"Decorative products are handmade 100% from set soil. Kneaded, meticulously, cared for each stage in the hands of skilled craftsmen."
+    },
+    {
+        "img":"KS4007.jpg",
+        "name":"KS4007",
+        "size":"SizeA: 40×41cm<br>SizeB: 31×31cm<br>SizeC: 23×21cm",
+        "packing":"36 sets/ pallet",
         "color":"Light Black",
         "descript":"Decorative products are handmade 100% from set soil. Kneaded, meticulously, cared for each stage in the hands of skilled craftsmen."
     },
     {
-        "img":".jpg",
-        "name":"",
-        "size":"",
-        "packing":" sets/ pallet",
+        "img":"KS4008.jpg",
+        "name":"KS4008",
+        "size":"SizeA: 80x35x37cm<br>SizeB: 68x21x21cm",
+        "packing":"20 sets/ pallet",
+        "color":"Light White<br>Light Grey",
+        "descript":"Decorative products are handmade 100% from set soil. Kneaded, meticulously, cared for each stage in the hands of skilled craftsmen."
+    },
+    {
+        "img":"KS4009.jpg",
+        "name":"KS4009",
+        "size":"SizeA: 36×65cm<br>SizeB: 29×54cm<br>SizeC: 22×44cm",
+        "packing":"36 sets/ pallet",
+        "color":"Light Grey",
+        "descript":"Decorative products are handmade 100% from set soil. Kneaded, meticulously, cared for each stage in the hands of skilled craftsmen."
+    },
+    {
+        "img":"KS4010.jpg",
+        "name":"KS4010",
+        "size":"SizeA: 36×32cm<br>SizeB: 29×27cm<br>SizeC: 22×22cm",
+        "packing":"54 sets/ pallet",
         "color":"Light Black",
         "descript":"Decorative products are handmade 100% from set soil. Kneaded, meticulously, cared for each stage in the hands of skilled craftsmen."
     },
     {
-        "img":".jpg",
-        "name":"",
-        "size":"",
-        "packing":" sets/ pallet",
-        "color":"Light Black",
-        "descript":"Decorative products are handmade 100% from set soil. Kneaded, meticulously, cared for each stage in the hands of skilled craftsmen."
-    },
-    {
-        "img":".jpg",
-        "name":"",
-        "size":"",
-        "packing":" sets/ pallet",
-        "color":"Light Black",
-        "descript":"Decorative products are handmade 100% from set soil. Kneaded, meticulously, cared for each stage in the hands of skilled craftsmen."
-    },
-    {
-        "img":".jpg",
-        "name":"",
-        "size":"",
-        "packing":" sets/ pallet",
-        "color":"Light Black",
-        "descript":"Decorative products are handmade 100% from set soil. Kneaded, meticulously, cared for each stage in the hands of skilled craftsmen."
-    },
-    {
-        "img":".jpg",
-        "name":"",
-        "size":"",
-        "packing":" sets/ pallet",
+        "img":"KS4011.jpg",
+        "name":"KS4011",
+        "size":"SizeA: 44×41cm<br>SizeB: 31×30cm<br>SizeC: 23×21cm",
+        "packing":"20 sets/ pallet",
         "color":"Light Black",
         "descript":"Decorative products are handmade 100% from set soil. Kneaded, meticulously, cared for each stage in the hands of skilled craftsmen."
     }

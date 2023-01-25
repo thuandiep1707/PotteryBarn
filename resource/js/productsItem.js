@@ -25,7 +25,7 @@ function callback() {
     });
 }
 
-callListItem('Terrazzo & Cement Pots');
+callback();
 
 function callListItem(name) {
   document.getElementById("link").innerHTML =

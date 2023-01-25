@@ -3,6 +3,7 @@ function Top() {
 }
 function callback() {
   Top();
+  document.getElementById('list-line').innerHTML ="";
   document.getElementById("link").innerHTML =
     '<h2 onclick="callback()">PRODUCTS</h2>';
   document.getElementById("item").innerHTML = "";
@@ -34,6 +35,7 @@ callback();
 
 function callListItem(name) {
   Top();
+  document.getElementById('list-line').innerHTML ="";
   document.getElementById("link").innerHTML =
     '<h2 onclick="callback()">PRODUCTS</h2> <h4 onclick="callListItem(\'' +
     name +

@@ -130,18 +130,26 @@ a:hover {
 }
 .list-line{
     /* border:  1px solid red; */
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
 } 
 .line-item{
     display: inline-block;
-    width: 24%;
+    width: 23%;
     background-color: rgb(175, 178, 197);
     border-radius: 5px;
     text-align: center;
-    margin: 0.3%;
+    margin: 0.7%;
+}
+.line-item:hover,
+.line-item:active{
+    transition: 0.5s;
+    position: relative;
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .line-item img{
+    height: 160px;
     border-radius: 5px;
     transform: scale(0.95);
 }
